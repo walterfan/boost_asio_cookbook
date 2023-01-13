@@ -1,0 +1,2 @@
+add_executable(boost_asio_primer boost_asio_primer.cpp)
+target_link_libraries(boost_asio_primer tinyutil pthread)
